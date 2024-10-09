@@ -47,18 +47,10 @@ Run ```main.py``` to train the model. Change training dataset directory as neede
 \
 \
 The corresponding commands to train the model:
-* ```bash
-python main.py --type 'mixed' --epoch {NUMBER_EPOCH} --lr {LEARNING_RATE} --save_model {SAVED_WEIGHT_NAME}
-```
-* ```bash
-python main.py --type 'clean' --epoch {NUMBER_EPOCH} --lr {LEARNING_RATE} --save_model {SAVED_WEIGHT_NAME}
-```
-* ```bash
-python main.py --type 'pose' --epoch {NUMBER_EPOCH} --lr {LEARNING_RATE} --save_model {SAVED_WEIGHT_NAME}
-```
+* ```bash python main.py --type 'mixed' --epoch {NUMBER_EPOCH} --lr {LEARNING_RATE} --save_model {SAVED_WEIGHT_NAME}```
+* ```bash python main.py --type 'clean' --epoch {NUMBER_EPOCH} --lr {LEARNING_RATE} --save_model {SAVED_WEIGHT_NAME}```
+* ```bash python main.py --type 'pose' --epoch {NUMBER_EPOCH} --lr {LEARNING_RATE} --save_model {SAVED_WEIGHT_NAME}```
 
 #### Evaluation
 
-```bash
-python validate.py --load_model {SAVED_WEIGHT_NAME}
-```
+```bash python validate.py --load_model {SAVED_WEIGHT_NAME}```
