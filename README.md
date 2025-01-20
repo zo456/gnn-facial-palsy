@@ -21,14 +21,14 @@ Dataset is prepared so that there are directories for each class, with the image
 |
 |---nonstroke
 |       |--subject0_frame0.png
-|       |--subject0_frame0.png
+|       |--subject0_frame1.png
 |       | ...
 |       |--subject1_frame0.png
 |       |...
 |
 |---stroke
         |--patient0_frame0.png
-        |--patient0_frame0.png
+        |--patient0_frame1.png
         | ...
         |--patient1_frame0.png
         |...
