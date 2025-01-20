@@ -122,7 +122,7 @@ def train(train_loader, model, optimizer):
         loss = torch.nn.CrossEntropyLoss()(out, data.y)
         loss.backward()
         optimizer.step()
-        return loss
+    return loss
 
 def validate(val_loader, model):
     model.eval()
